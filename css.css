@@ -193,12 +193,13 @@ nav ul li a:hover::after {
     margin: 10px 0;
 }
 
-  #Experience ul li span {
-    color:#ff004f ;
+#Experience ul li span {
+    color: #ff004f;
     font-size: 18px;
 
 }
-#Experience ul li{
+
+#Experience ul li {
 
     font-size: 14px;
 }
@@ -206,12 +207,14 @@ nav ul li a:hover::after {
 .tab-contents {
     display: none;
 }
+
 #Education ul li span {
     color: #00fbff;
     font-size: 18px;
 
 }
-#Education ul li{
+
+#Education ul li {
 
     font-size: 14px;
 }
@@ -223,3 +226,57 @@ nav ul li a:hover::after {
     display: block;
 
 }
+
+
+/* --------------------skills css--------------- */
+
+
+
+
+#Myskills {
+
+    padding: 30px 0;
+}
+
+.skills-list {
+
+
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap : 40px;
+    margin-top: 50px;
+}
+
+.skills-list div{
+
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 15px;
+    transition: background 0.5s, transform 0.5s ;
+}
+
+.skills-list div i {
+ font-size: 50px ;
+ margin-bottom: 30px;
+
+}
+
+.skills-list div h2{
+
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px
+
+}
+  
+.skills-list div:hover{ 
+    background: #ff004f; 
+    transform: translateY(10px);
+
+
+
+}
+
+
